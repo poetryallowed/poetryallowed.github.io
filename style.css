@@ -196,7 +196,7 @@
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 2%;
-        font-size: 130px;
+        font-size: 60px;
         font-family: 'Limelight';
     }
     
@@ -248,7 +248,7 @@
         color: rgb(120, 23, 123);
         margin-bottom: -20px;
         margin-top: 4px;
-        font-size: 50px;
+        font-size: 25px;
     }
     
     #navBar {
@@ -259,11 +259,11 @@
         padding-bottom: 7px;
         font-size: 30px;
         display: grid;
-        grid-template-columns: 46% 8% auto auto; 
+        grid-template-columns: 46% 1% auto auto; 
     }
     
     .navLink {
-        font-size: 30px;
+        font-size: 15px;
         color: rgb(120, 23, 123);
         padding-top: 10px;
         text-shadow: none;
@@ -288,7 +288,7 @@
         color: rgb(120, 23, 123);
         background-color: white;
         text-shadow: none;
-        font-size: 55px;
+        font-size: 25px;
         padding: 0px;
         box-shadow: none;
     }
@@ -315,26 +315,26 @@
     
     #searchBar {
         border: 0px;
-        padding: 15px;
+        padding: 13px;
         padding-left: 17px;
         margin-top: 15px;
         margin-bottom: 5px;
-        margin-right: 17px;
+        margin-right: 5px;
         color: rgb(215, 65, 133);
         border-radius: 15px;
         width: 40%;
         outline-color: rgb(215, 65, 133) !important;
-        font-size: 30px !important;
+        font-size: 15px !important;
         /*outline-color: rgb(215, 65, 133) !important;*/
     }
     
     button {
         border: 0px;
-        padding: 15px;
+        padding: 13px;
         background-color: rgb(255, 145, 147);
         border-radius: 15px;
         color: white;
-        font-size: 30px;
+        font-size: 15px;
         text-shadow: 0px 0px 10px rgb(245, 175, 147);
     }
     
@@ -343,9 +343,6 @@
         box-shadow: 0px 0px 10px rgb(215, 65, 133);
     }
     
-    #searcher {
-        font-weight: bold;
-    }
     
     #noResults {
         text-align: center;
@@ -368,7 +365,7 @@
     .dropdown:hover .dropdown-content {
         display: grid;
         grid-template-columns: 190px
-        margin: 20px;
+        margin: 0px;
     }
     
     .dropdown-item {
@@ -391,6 +388,7 @@
     }
     
     p {
-        font-size: 30px;
+        padding-top: 5px;
+        font-size: 17px;
     }
 }
