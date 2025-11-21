@@ -1,3 +1,8 @@
+window.onload = function() {
+    console.log("Everything has been loaded!");
+}
+
+console.log("top of page")
 let poems1 = []
 
 fetch("patsv.tsv")
@@ -40,7 +45,10 @@ function displayPoems(poems) {
 
 navHead = document.getElementById("navHead").addEventListener("click", () => refresh())
 
-searcher = document.getElementById("searcher").addEventListener("click", () => searchPoems(document.getElementById("searchBar").value))
+let searchBar = document.getElementById("searchBar");
+console.log("hi")
+console.log(searchBar);
+searcher = document.getElementById("searcher").addEventListener("click", () => searchPoems(searchBar.value));
 
 //document.getElementById("searcher").addEventListener("click", () => searchPoems("angelou"))
 
