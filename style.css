@@ -2,14 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Limelight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Gantari:ital,wght@0,100..900;1,100..900&family=Limelight&display=swap');
 
-@media all and (min-width: 1200px) {
-    h1 {
+
+    :root {
+        --bs-border-radius: inherit;
+        --bs-link-color: inherit;
+        --bs-body-font-size: inherit;
+    }
+
+    #actionHeader {
         margin: 0;
         padding-top: 6%;
         padding-left: 0;
         padding-right: 0;
-        font-size: 90px;
+        font-size: 90px !important;
         font-family: 'Limelight';
+    }
+
+    #searcher {
+        border-radius: 10px !important;
     }
     
     #display {
@@ -24,7 +34,7 @@
     
     body {
         color: rgb(120, 23, 123);
-        background-color: mistyRose;
+        background-color: mistyRose !important;
         margin: 0;
         font-family: 'Gantari';
     }
@@ -39,12 +49,14 @@
     .item {
         background-color: white;
         margin: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 25px;
+        padding-bottom: 10px;
         padding-left: 30px;
         padding-right: 30px;
         border-radius: 15px;
         margin-bottom: 0px;
+        color: inherit !important;
+        text-decoration: inherit !important;
     }
     
     #listView {
@@ -55,31 +67,43 @@
         margin-right: 5%;
         margin-bottom: 20px !important;
     }
+
+    .nav-link {
+        font-size: 15px !important;
+    }
+
+    .bs--body-bg {
+        background-color: mistyRose !important;
+    }
     
     h2 {
         color: rgb(120, 23, 123);
         margin-bottom: -10px;
+        font-weight: bold !important;
+        font-size: 23px !important;
+    }
+
+    .nav-item {
+        color: rgb(120, 23, 123); 
     }
     
-    #navBar {
+    .navbar {
         background-color: white;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font-size: 30px;
-        display: grid;
-        grid-template-columns: auto 60% auto auto; 
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     
-    .navLink {
-        font-size: 16px;
+    .nav-link {
+        font-size: 18px;
         color: rgb(120, 23, 123);
         padding: 0px;
         text-shadow: none;
         box-shadow: none;
         background-color: white;
         font-family: "Gantari";
+        padding: 0px;
     }
     
     #navLink2 {
@@ -99,8 +123,20 @@
         background-color: white;
         text-shadow: none;
         font-size: 30px;
-        padding: 3px;
+        padding: 0px;
         box-shadow: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .bs--link-color-rgb {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    .bs--link-color {
+        color: inherit !important;
+        text-decoration: none !important;
     }
     
     #navHead:hover {
@@ -115,19 +151,19 @@
     
     
     a {
-        color: inherit;
-        text-decoration: inherit;
+        color: rgb(120, 23, 123) !important;
+        text-decoration: inherit !important;
     }
     
     a:hover {
-        color: rgb(215, 65, 133);
+        color: rgb(215, 65, 133) !important;
     }
     
     #searchBar {
         border: 0px;
         padding: 10px;
-        padding-left: 17px;
         margin-top: 25px;
+        margin-left: 0px;
         margin-right: 5px;
         color: rgb(215, 65, 133);
         border-radius: 10px;
@@ -170,8 +206,7 @@
     
     .dropdown:hover .dropdown-content {
         display: grid;
-        grid-template-columns: 200px
-        margin: 20px;
+        grid-template-columns: 200px;
     }
     
     .dropdown-item {
@@ -187,7 +222,7 @@
         background-color: white;
         box-shadow: none;
     }
-}
+
 
 @media all and (max-width: 1200px) {
     h1 {
@@ -207,12 +242,13 @@
         padding-left: 4%;
         background-image: url(https://codehs.com/uploads/05138d862bda5b751734dfa279177264);
         background-size: cover;
+        background-color: mistyRose !important;
         margin: 0;
         padding-bottom: 4%;
     }
     body {
         color: rgb(120, 23, 123);
-        background-color: mistyRose;
+        background-color: mistyRose !important;
         margin: 0;
         font-family: 'Gantari';
     }
@@ -248,7 +284,7 @@
         color: rgb(120, 23, 123);
         margin-bottom: -20px;
         margin-top: 4px;
-        font-size: 25px;
+        font-size: 22px;
     }
     
     #navBar {
@@ -257,13 +293,13 @@
         padding-right: 10px;
         padding-top: 7px;
         padding-bottom: 7px;
-        font-size: 30px;
+        font-size: 15px;
         display: grid;
         grid-template-columns: 46% 1% auto auto; 
     }
     
     .navLink {
-        font-size: 15px;
+        font-size: 15px !important;
         color: rgb(120, 23, 123);
         padding-top: 10px;
         text-shadow: none;
@@ -364,7 +400,7 @@
     
     .dropdown:hover .dropdown-content {
         display: grid;
-        grid-template-columns: 190px
+        grid-template-columns: 190px;
         margin: 0px;
     }
     
@@ -391,4 +427,4 @@
         padding-top: 5px;
         font-size: 17px;
     }
-}
+

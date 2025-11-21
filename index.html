@@ -6,41 +6,58 @@
     <link rel="icon" type="image/x-icon" href="https://codehs.com/uploads/ac77081fd150ff7563c68238b5b0417e">
     <title>Poetry Allowed</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id = "navBar">
-        <button id = "navHead">
-            Poetry Allowed
-        </button>
-        <div id = "space"></div>
-        <div class = "dropdown">
-            <button id = "navLink1" class = "navLink">Search by Topic</button>
-            <div class="dropdown-content">
-                <button class="dropdown-item">Childhood/Nostalgia</button>
-                <button class="dropdown-item">Food</button>
-                <button class="dropdown-item">Gender Identity/Gender/Sexuality</button>
-                <button class="dropdown-item">Grief/Loss</button>
-                <button class="dropdown-item">Love</button>
-                <button class="dropdown-item">Migration/Displacement</a>
-                <button class="dropdown-item">Nature/Environment</button>
-                <button class="dropdown-item">Politics/Justice</button>
-                <button class="dropdown-item">Pop Culture</button>
-                <button class="dropdown-item">Philosophy/Abstraction</a>
-                <button class="dropdown-item">Race/Ethnicity</button>
-                <button class="dropdown-item">Relationships/Family/Friendship</button>
-                <button class="dropdown-item">Religion/Spirituality/Ritual</button>
-                <button class="dropdown-item">Science/STEM</button>
-                <button class="dropdown-item">War/Conflict</button>
-                <button class="dropdown-item">Work/Labor</button>
-                <button class="dropdown-item">Social Commentary</button>
-            </div>
-        </div>
-        <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfgTOy_f_DqleMDY-ouI7MykMN5O0qqR0MLsMNN8QPGnF-Ezg/formResponse" class = "navLink" id = "navLink2">Suggest a Poem</a>
+    <nav class="navbar navbar-expand-lg">
+  <div id="searchBar" class="container-fluid">
+    <a class="navbar-brand" id="navHead" href="#">Poetry Allowed</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfgTOy_f_DqleMDY-ouI7MykMN5O0qqR0MLsMNN8QPGnF-Ezg/formResponse">Suggest a Poem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Search by Topic
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Childhood/Nostalgia</a></li>
+            <li><a class="dropdown-item" href="#">Food</a></li>
+            <li><a class="dropdown-item" href="#">Gender Identity/Gender/Sexuality</a></li>
+            <li><a class="dropdown-item" href="#">Grief/Loss</a></li>
+            <li><a class="dropdown-item" href="#">Love</a></li>
+            <li><a class="dropdown-item" href="#">Migration/Displacement</a></li>
+            <li><a class="dropdown-item" href="#">Nature/Environment</a></li>
+            <li><a class="dropdown-item" href="#">Politics/Justice</a></li>
+            <li><a class="dropdown-item" href="#">Pop Culture</a></li>
+            <li><a class="dropdown-item" href="#">Philosophy/Abstraction</a></li>
+            <li><a class="dropdown-item" href="#">Race/Ethnicity</a></li>
+            <li><a class="dropdown-item" href="#">Relationships/Family/Friendship</a></li>
+            <li><a class="dropdown-item" href="#">Religion/Spirituality/Ritual</a></li>
+            <li><a class="dropdown-item" href="#">Science/STEM</a></li>
+            <li><a class="dropdown-item" href="#">War/Conflict</a></li>
+            <li><a class="dropdown-item" href="#">Work/Labor</a></li>
+            <li><a class="dropdown-item" href="#">Social Commentary</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
         
     <div id="display">
-        <h1>Find Your Poem</h1>
+        <h1 id="actionHeader">Find Your Poem</h1>
         <div id="searchHorizontal">
             <input id="searchBar" type="text" placeholder="Search our database..."> </input>
             <button type="button" id="searcher">Search</button>
@@ -57,6 +74,7 @@
             
         </div>
     <script src = "script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
