@@ -85,6 +85,7 @@
 
     .nav-item {
         color: rgb(120, 23, 123); 
+        text-align: right !important;
     }
     
     .navbar {
@@ -107,7 +108,7 @@
     }
     
     #navLink2 {
-        margin-top: 13px;
+        margin-top: 0px;
     }
     
     .navLink:hover {
@@ -158,8 +159,22 @@
     a:hover {
         color: rgb(215, 65, 133) !important;
     }
-    
+
+    /*
     #searchBar {
+        border: 0px;
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 5px;
+        color: rgb(215, 65, 133);
+        border-radius: 10px;
+        width: 40%;
+        outline-color: rgb(215, 65, 133) !important;
+    }
+    */
+    
+    #searchBarPoem {
         border: 0px;
         padding: 10px;
         margin-top: 25px;
@@ -170,6 +185,10 @@
         width: 40%;
         outline-color: rgb(215, 65, 133) !important;
         /*outline-color: rgb(215, 65, 133) !important;*/
+    }
+
+    #navbarSupportedContent {
+        margin-right: 100px !important;
     }
     
     button {
@@ -298,16 +317,6 @@
         grid-template-columns: 46% 1% auto auto; 
     }
     
-    .navLink {
-        font-size: 15px !important;
-        color: rgb(120, 23, 123);
-        padding-top: 10px;
-        text-shadow: none;
-        box-shadow: none;
-        background-color: white;
-        font-family: "Gantari";
-    }
-    
     #navLink2 {
         margin-top: 1px;
     }
@@ -428,3 +437,4 @@
         font-size: 17px;
     }
 
+}

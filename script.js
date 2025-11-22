@@ -1,8 +1,8 @@
 window.onload = function() {
-    console.log("Everything has been loaded!");
+    console.log("Loading check 2");
 }
 
-console.log("top of page")
+console.log("top of page 1")
 let poems1 = []
 
 fetch("patsv.tsv")
@@ -45,17 +45,17 @@ function displayPoems(poems) {
 
 navHead = document.getElementById("navHead").addEventListener("click", () => refresh())
 
-let searchBar = document.getElementById("searchBar");
+let searchBarPoem = document.getElementById("searchBarPoem");
 console.log("hi")
-console.log(searchBar);
-searcher = document.getElementById("searcher").addEventListener("click", () => searchPoems(searchBar.value));
+console.log(searchBarPoem);
+searcher = document.getElementById("searcher").addEventListener("click", () => searchPoems(searchBarPoem.value));
 
 //document.getElementById("searcher").addEventListener("click", () => searchPoems("angelou"))
 
 function refresh() {
     displayPoems(poems1)
-    var searchBar = document.getElementById("searchBar")
-    searchBar.value = ""
+    var searchBarPoem = document.getElementById("searchBarPoem")
+    searchBarPoem.value = ""
 }
 
 function searchPoems(userInput) {
