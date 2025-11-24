@@ -310,6 +310,13 @@
         padding-right: 2%;
     }
 
+    #contactHeader {
+        font-size: 50px !important;
+        padding-bottom: -10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
     #navHead {
         margin-left: 7%;
     }
