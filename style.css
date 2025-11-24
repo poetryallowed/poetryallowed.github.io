@@ -72,7 +72,7 @@
     #listView {
         color: rgb(215, 65, 133);
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 20px !important;
@@ -274,6 +274,48 @@
 
 
 @media all and (max-width: 1200px) {
-    
+    #listView {
+        grid-template-columns: 1fr;
+    }
+
+    #searchBarPoem {
+        padding: 9px;
+        font-size: 15px;
+        width: 60%;
+    }
+
+    #searcher {
+        padding: 9px;
+        font-size: 15px;
+    }
+
+    .navbar-collapse {
+        display: none !important;
+    }
+
+    :root {
+        .d-flex {
+            display: inherit !important;
+        }
+
+        .collapse:not(.show) {
+            display: none !important;
+        }
+    }
+
+    #actionHeader {
+        font-size: 65px !important;
+        padding-bottom: -10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    #navHead {
+        margin-left: 7%;
+    }
+
+    .navbar-toggler {
+        margin-right: 7%;
+    }
 
 }
