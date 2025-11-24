@@ -1,8 +1,8 @@
 window.onload = function() {
-    console.log("Loading check 2");
+    console.log("Loading check 4");
 }
 
-console.log("top of page 1")
+console.log("top of page 5")
 let poems1 = []
 
 fetch("patsv.tsv")
