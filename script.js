@@ -6,7 +6,7 @@ fetch("patsv.tsv")
         let lines = tsvText.trim().split("\n")
         let poems = []
         
-        for (let i = 1; i < lines.length; i++) {
+        for (let i = 0; i < lines.length; i++) {
             let currentLine = lines[i].split("\t")
             poems.push({
                 "title": currentLine[0],
@@ -28,7 +28,7 @@ function displayPoems(poems) {
     poemsDiv.innerHTML = ``
 
     for (let i = 0; i < poems.length; i++) {
-      let culmulative = ""
+        let culmulative = ""
         culmulative += `<div class = "item">`
         culmulative += `<h2><a href="${poems[i]["link"]}">${poems[i]["title"]}</a></h2>`
         culmulative += `<p>by   ${poems[i]["first"]} ${poems[i]["last"]}</p>`
@@ -38,16 +38,18 @@ function displayPoems(poems) {
     }
 }
 
-navHead = document.getElementById("navHead").addEventListener("click", () => refresh())
+navHead = document.getElementById("navHead")
+navHead.addEventListener("click", () => refresh())
 
-let searchBarPoem = document.getElementById("searchBarPoem");
-searcher = document.getElementById("searcher").addEventListener("click", () => searchPoems(searchBarPoem.value));
+let searchBarPoem = document.getElementById("searchBarPoem")
+
+searcher = document.getElementById("searcher")
+searcher.addEventListener("click", () => searchPoems(searchBarPoem.value))
 
 
 // refresh function: clears any searches and sets the page to its default state
 function refresh() {
     displayPoems(poems1)
-    let searchBarPoem = document.getElementById("searchBarPoem")
     searchBarPoem.value = ""
 }
 
@@ -93,14 +95,12 @@ function searchPoems(userInput) {
 
 //parseLast function: takes a name formatted as last, first and outputs the last name
 function parseLast(fl ="") {
-    let str = fl.toString()
-    return str.slice(0, str.indexOf(","))
+    return fl.slice(0, fl.indexOf(","))
 }
 
 //parseFirst function: takes a name formatted as last, first and outputs the first name
 function parseFirst(fl ="") {
-    let str = fl.toString()
-    return str.slice(str.indexOf(",")+2, str.length)
+    return fl.slice(fl.indexOf(",")+2, fl.length)
 }
 
 let topicButtons = document.querySelectorAll(".dropdown-item")
