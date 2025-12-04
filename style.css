@@ -3,277 +3,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Gantari:ital,wght@0,100..900;1,100..900&family=Limelight&display=swap');
 
 
-    :root {
-        --bs-border-radius: inherit;
-        --bs-link-color: inherit;
-        --bs-body-font-size: inherit;
-    }
+:root {
+    --bs-border-radius: inherit;
+    --bs-link-color: inherit;
+    --bs-body-font-size: inherit;
+}
 
-    #actionHeader {
-        margin: 0;
-        padding-top: 5%;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 90px !important;
-        font-family: 'Limelight';
-    }
+#actionHeader {
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 90px !important;
+    font-family: 'Limelight';
+}
 
-    #searcher {
-        border-radius: 10px !important;
-    }
-    
-    #display {
-        color: white;
-        text-shadow: 0px 0px 10px rgb(116, 23, 123);
-        text-align: center;
-        background-image: url(https://codehs.com/uploads/103641a82c0843bba6306faccae0e6d2);
-        background-size: cover;
-        margin: 0;
-        padding-bottom: 4%;
-    }
+#searcher {
+    border-radius: 10px !important;
+}
 
-    #display2 {
-        color: white;
-        text-shadow: 0px 0px 10px rgb(116, 23, 123);
-        text-align: center;
-        background-image: url(https://codehs.com/uploads/3fa153c2b42b3ce44a513a85cdc4ce3d);
-        background-size: cover;
-        margin: 0;
-        padding-bottom: 4%;
-    }
-    
-    body {
-        color: rgb(120, 23, 123);
-        background-color: mistyRose !important;
-        margin: 0;
-        font-family: 'Gantari';
-    }
-    
-    #main {
-        padding-top: 20px;
-        padding-right: 50px;
-        padding-left: 50px;
-        color: rgb(120, 23, 123);
-    }
-    
-    .item {
-        background-color: white;
-        margin: 10px;
-        padding-top: 25px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        border-radius: 15px;
-        margin-bottom: 0px;
-        color: inherit !important;
-        text-decoration: inherit !important;
-    }
-    
-    #listView {
-        color: rgb(215, 65, 133);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 20px !important;
-    }
+#display {
+    color: white;
+    text-shadow: 0px 0px 10px rgb(116, 23, 123);
+    text-align: center;
+    background-image: url(https://codehs.com/uploads/103641a82c0843bba6306faccae0e6d2);
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 4%;
+}
 
-    .nav-link {
-        font-size: 15px !important;
-    }
+#display2 {
+    color: white;
+    text-shadow: 0px 0px 10px rgb(116, 23, 123);
+    text-align: center;
+    background-image: url(https://codehs.com/uploads/3fa153c2b42b3ce44a513a85cdc4ce3d);
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 4%;
+}
 
-    .bs--body-bg {
-        background-color: mistyRose !important;
-    }
-    
-    h2 {
-        color: rgb(120, 23, 123);
-        margin-bottom: -10px;
-        font-weight: bold !important;
-        font-size: 23px !important;
-    }
+body {
+    color: rgb(120, 23, 123);
+    background-color: mistyRose !important;
+    margin: 0;
+    font-family: 'Gantari';
+}
 
-    .nav-item {
-        color: rgb(120, 23, 123); 
-        text-align: right !important;
-    }
-    
-    .navbar {
-        background-color: white;
-        padding-left: 30px;
-        padding-right: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    
-    .nav-link {
-        font-size: 18px;
-        color: rgb(120, 23, 123);
-        padding: 0px;
-        text-shadow: none;
-        box-shadow: none;
-        background-color: white;
-        font-family: "Gantari";
-        padding: 0px;
-    }
-    
-    #navLink2 {
-        margin-top: 0px;
-    }
-    
-    .navLink:hover {
-        background-color: white;
-        box-shadow: none;
-        text-shadow: none;
-        color: rgb(215, 65, 133);
-    }
-    
-    #navHead {
-        font-family: "Amarante";
-        color: rgb(120, 23, 123);
-        background-color: white;
-        text-shadow: none;
-        font-size: 30px;
-        padding: 0px;
-        box-shadow: none;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+#main {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(120, 23, 123);
+}
 
-    .bs--link-color-rgb {
-        color: inherit !important;
-        text-decoration: none !important;
-    }
+.item {
+    background-color: white;
+    margin: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
 
-    .bs--link-color {
-        color: inherit !important;
-        text-decoration: none !important;
-    }
-    
-    #navHead:hover {
-        color: rgb(215, 65, 133);
-    }
-    
-    #navBar {
-        margin-top: -7px;
-        margin-bottom: -7px;
-    }
-    
-    
-    
-    a {
-        color: rgb(120, 23, 123) !important;
-        text-decoration: inherit !important;
-    }
-    
-    a:hover {
-        color: rgb(215, 65, 133) !important;
-    }
+#listView {
+    color: rgb(215, 65, 133);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px !important;
+}
 
-    #searchBar {
-        padding-right: 0px !important;
-        margin-right: 0px !important;
-    }
+.nav-link {
+    font-size: 15px !important;
+}
 
-    /*
-    #searchBar {
-        border: 0px;
-        padding: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 5px;
-        color: rgb(215, 65, 133);
-        border-radius: 10px;
-        width: 40%;
-        outline-color: rgb(215, 65, 133) !important;
-    }
-    */
-    
-    #searchBarPoem {
-        border: 0px;
-        padding: 10px;
-        margin-top: 25px;
-        margin-left: 0px;
-        margin-right: 5px;
-        color: rgb(215, 65, 133);
-        border-radius: 10px;
-        width: 40%;
-        /*outline-color: rgb(215, 65, 133) !important;*/
-    }
+.bs--body-bg {
+    background-color: mistyRose !important;
+}
 
-    #navbarSupportedContent {
-        margin-right: 100px !important;
-    }
-    
-    button {
-        border: 0px;
-        padding: 10px;
-        background-color: rgb(245, 175, 145);
-        border-radius: 10px;
-        color: white;
-        text-shadow: 0px 0px 10px rgb(215, 65, 133);
-    }
-    
-    button:hover {
-        background-color: rgb(255, 195, 167);
-        box-shadow: 0px 0px 10px rgb(215, 65, 133);
-    }
-    
-    #noResults {
-        text-align: center;
-        color: rgb(120, 23, 123);
-    }
+h2 {
+    color: rgb(120, 23, 123);
+    margin-bottom: -10px;
+    font-weight: bold !important;
+    font-size: 23px !important;
+}
 
-    #contactHeader {
-        margin: 0;
-        padding-top: 7%;
-        padding-bottom: 2%;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 90px !important;
-        font-family: 'Limelight';
-    }
+.nav-item {
+    color: rgb(120, 23, 123); 
+    text-align: right !important;
+}
 
-    .dropdown-menu {
-        outline: none !important;
-        --bs-dropdown-border-color: rgba(0, 0, 0, 0) !important;
-        box-shadow: 0px 0px 10px rgb(215, 65, 133, 0.1);
-    }
-    
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: rgba(255, 255, 255, 0.7);
-      min-width: 100px;
-      text-align: center;
-      box-shadow: 0px 10px 20px rgba(215, 65, 133, 0.4);
-      z-index: 1;
-      border-radius: 15px !important;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    
-    .dropdown:hover .dropdown-content {
-        display: grid;
-        grid-template-columns: 200px;
-    }
-    
-    .dropdown-item {
-        color: rgb(120, 23, 123);
-        border-radius: 0;
-        background-color: transparent;
-        text-shadow: none;
-        padding: none;
-        box-shadow: none;
-    }
-    
-    .dropdown-item:hover {
-        background-color: white;
-        box-shadow: none;
-    }
+.navbar {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: rgb(120, 23, 123);
+    padding: 0px;
+    text-shadow: none;
+    box-shadow: none;
+    background-color: white;
+    font-family: "Gantari";
+    padding: 0px;
+}
+
+#navLink2 {
+    margin-top: 0px;
+}
+
+.navLink:hover {
+    background-color: white;
+    box-shadow: none;
+    text-shadow: none;
+    color: rgb(215, 65, 133);
+}
+
+#navHead {
+    font-family: "Amarante";
+    color: rgb(120, 23, 123);
+    background-color: white;
+    text-shadow: none;
+    font-size: 30px;
+    padding: 0px;
+    box-shadow: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bs--link-color-rgb {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.bs--link-color {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+#navHead:hover {
+    color: rgb(215, 65, 133);
+}
+
+#navBar {
+    margin-top: -7px;
+    margin-bottom: -7px;
+}
 
 
-@media all and (max-width: 1200px) {
+
+a {
+    color: rgb(120, 23, 123) !important;
+    text-decoration: inherit !important;
+}
+
+a:hover {
+    color: rgb(215, 65, 133) !important;
+}
+
+#searchBar {
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+/*
+#searchBar {
+    border: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    color: rgb(215, 65, 133);
+    border-radius: 10px;
+    width: 40%;
+    outline-color: rgb(215, 65, 133) !important;
+}
+*/
+
+#searchBarPoem {
+    border: 0px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 5px;
+    color: rgb(215, 65, 133);
+    border-radius: 10px;
+    width: 40%;
+    /*outline-color: rgb(215, 65, 133) !important;*/
+}
+
+#navbarSupportedContent {
+    margin-right: 100px !important;
+}
+
+button {
+    border: 0px;
+    padding: 10px;
+    background-color: rgb(245, 175, 145);
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(215, 65, 133);
+}
+
+button:hover {
+    background-color: rgb(255, 195, 167);
+    box-shadow: 0px 0px 10px rgb(215, 65, 133);
+}
+
+#noResults {
+    text-align: center;
+    color: rgb(120, 23, 123);
+}
+
+#contactHeader {
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 90px !important;
+    font-family: 'Limelight';
+}
+
+.dropdown-menu {
+    outline: none !important;
+    --bs-dropdown-border-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: 0px 0px 10px rgb(215, 65, 133, 0.1);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    min-width: 100px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(215, 65, 133, 0.4);
+    z-index: 1;
+    border-radius: 15px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: grid;
+    grid-template-columns: 200px;
+}
+
+.dropdown-item {
+    color: rgb(120, 23, 123);
+    border-radius: 0;
+    background-color: transparent;
+    text-shadow: none;
+    padding: none;
+    box-shadow: none;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    box-shadow: none;
+}
+
+
+@media all and (max-width: 992px) {
     #listView {
         grid-template-columns: 1fr;
     }
